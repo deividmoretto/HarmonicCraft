@@ -72,7 +72,6 @@
             padding: 20px;
         }
 </style>
-</head>
 <body>
     <ul class="menu">
         <li><a href="#home">Home</a></li>
@@ -91,7 +90,6 @@
 <div class="content">
         <!-- Conteúdo da página aqui -->
 </head>
-</body>
 
 
 
@@ -139,7 +137,6 @@
         }
     </style>
 </head>
-<body>
 
 <main>
         <img src="https://i.ibb.co/3h4mbCQ/logo.png" alt="logo" border="0" />
@@ -167,4 +164,3 @@
         <p>&copy; 2023 HARMONIC CRAFT</p>
     </footer>
 </body>
-</html>
