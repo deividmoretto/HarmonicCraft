@@ -1,8 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Expansível com Cantos Arredondados</title>
+    <style>
+        /* Estilos para o menu de navegação principal */
+        ul.menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+            border-radius: 10px; /* Cantos arredondados para o menu principal */
+            display: flex;
+            justify-content: center; /* Centralizar os itens horizontalmente */
+        }
+
+        li {
+            margin: 0 10px; /* Espaçamento entre os itens do menu */
+            position: relative;
+            border-radius: 10px; /* Cantos arredondados para os itens do menu */
+        }
+
+        li:last-child {
+            margin-right: 0; /* Remover o espaçamento à direita do último item */
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            border-radius: 10px; /* Cantos arredondados para os links */
+        }
+
+        li a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Estilos para o submenu */
+        .submenu {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            min-width: 160px;
+            z-index: 1;
+            border-radius: 0 0 10px 10px; /* Cantos arredondados para o submenu */
+        }
+
+        li:hover .submenu {
+            display: block;
+        }
+
+        .submenu a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            border-radius: 0; /* Remover cantos arredondados para os links do submenu */
+        }
+
+        .submenu a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Estilos para o conteúdo da página */
+        .content {
+            padding: 20px;
+        }
+</style>
+</head>
+<body>
+    <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li>
+            <a href="#services">More</a>
+            <div class="submenu">
+                <a href="#service1">DEMO</a>
+                <a href="#service2">Artists</a>
+                <a href="#service3">Musics</a>
+            </div>
+        </li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+<div class="content">
+        <!-- Conteúdo da página aqui -->
+</head>
+</body>
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -42,20 +138,16 @@
             max-width: 100%;
         }
     </style>
-    <title>Meu Site</title>
 </head>
 <body>
-    <header>
-        <h1>HARMONIC CRAFT</h1>
-    </header>
 
-    <main>
+<main>
         <img src="https://i.ibb.co/3h4mbCQ/logo.png" alt="logo" border="0" />
     </main>
 
-    <h1>NEWS</h1>
+<h1>NEWS</h1>
 
-    <div class="catalogo">
+<div class="catalogo">
         <div class="item">
             <img src="https://i.ibb.co/KzPgqGn/Design-sem-nome-1.jpg" alt="Design-sem-nome-1" border="0">
             <p>Low Frequencies (Now Relised)</p>
@@ -71,7 +163,7 @@
         <!-- Adicione mais itens conforme necessário -->
     </div>
 
-    <footer>
+<footer>
         <p>&copy; 2023 HARMONIC CRAFT</p>
     </footer>
 </body>
