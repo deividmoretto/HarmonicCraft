@@ -151,7 +151,7 @@
         </div>
         <div class="item">
             <img src="https://i.ibb.co/z591qPf/Ilustrac-a-o-Floral-Capa-de-CD.jpg" alt="Ilustrac-a-o-Floral-Capa-de-CD" border="0">
-            <p>You are lived (29/09/2023)</p>
+            <p>You are lived (Now Relised)</p>
         </div>
         <div class="item">
             <img src="https://i.ibb.co/58QsQZ0/Disappear.jpg" alt="Disappear" border="0">
