@@ -3,6 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Expansível com Cantos Arredondados</title>
+    <style>
+        /* Estilos para o menu de navegação principal */
+        ul.menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+            border-radius: 10px; /* Cantos arredondados para o menu principal */
+            display: flex;
+            justify-content: center; /* Centralizar os itens horizontalmente */
+        }
+
+        li {
+            margin: 0 10px; /* Espaçamento entre os itens do menu */
+            position: relative;
+            border-radius: 10px; /* Cantos arredondados para os itens do menu */
+        }
+
+        li:last-child {
+            margin-right: 0; /* Remover o espaçamento à direita do último item */
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            border-radius: 10px; /* Cantos arredondados para os links */
+        }
+
+        li a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Estilos para o submenu */
+        .submenu {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            min-width: 160px;
+            z-index: 1;
+            border-radius: 0 0 10px 10px; /* Cantos arredondados para o submenu */
+        }
+
+        li:hover .submenu {
+            display: block;
+        }
+
+        .submenu a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            border-radius: 0; /* Remover cantos arredondados para os links do submenu */
+        }
+
+        .submenu a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Estilos para o conteúdo da página */
+        .content {
+            padding: 20px;
+        }
+</style>
+<body>
+    <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li>
+            <a href="#More">More</a>
+            <div class="submenu">
+                <a href="#Demo">DEMOS</a>
+                <li><a href="./artists.html">Artists</a></li>
+                <li><a href="./Music.html">Music</a></li>
+            </div>
+        </li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Site</title>
     <style>
         .titulo {
@@ -19,7 +104,8 @@
 
     <main>
         <!-- Conteúdo principal do seu site -->
-        <img src="https://i.ibb.co/CwLXn3Q/logo-borda-dourada.png" alt="Logo">
+        <img src="https://i.ibb.co/rMsxHwD/logo-com-letra.png" alt="Logo" style="width: 500px; max-width: 100%;">
+
         <p>Fundada com a paixão pela música e o desejo de promover talentos excepcionais, a Harmonic Craft Records é uma gravadora inovadora que se dedica a descobrir e compartilhar melodias envolventes e inspiradoras.
             Acreditamos que a música é uma forma de arte única, capaz de unir pessoas, transmitir emoções e contar histórias poderosas. Nossa gravadora foi criada para proporcionar um ambiente acolhedor e estimulante, onde artistas talentosos podem explorar sua criatividade, colaborar com profissionais experientes e aprimorar suas habilidades musicais.
             Na Harmonic Craft Records, celebramos a essência dos artistas como artesãos musicais. Valorizamos o processo de criação musical, incentivando a originalidade e a autenticidade em cada composição. Acreditamos que a música é uma expressão da alma, e estamos comprometidos em ajudar os artistas a encontrar sua voz única e compartilhá-la com o mundo.
