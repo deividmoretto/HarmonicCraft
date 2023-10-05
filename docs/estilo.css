@@ -1,0 +1,21 @@
+/* Estilizando a imagem do artista */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilizando o título do artista */
+h1 {
+    text-align: center;
+    color: #333; /* Cor do texto */
+}
+
+/* Estilizando o texto da biografia e descrição */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666; /* Cor do texto */
+    margin: 20px;
+}
