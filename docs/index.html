@@ -1,177 +1,27 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu Expansível com Cantos Arredondados</title>
-    <style>
-        /* Estilos para o menu de navegação principal */
-        ul.menu {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            background-color: #333;
-            border-radius: 10px; /* Cantos arredondados para o menu principal */
-            display: flex;
-            justify-content: center; /* Centralizar os itens horizontalmente */
-        }
-
-        li {
-            margin: 0 10px; /* Espaçamento entre os itens do menu */
-            position: relative;
-            border-radius: 10px; /* Cantos arredondados para os itens do menu */
-        }
-
-        li:last-child {
-            margin-right: 0; /* Remover o espaçamento à direita do último item */
-        }
-
-        li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            border-radius: 10px; /* Cantos arredondados para os links */
-        }
-
-        li a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-
-        /* Estilos para o submenu */
-        .submenu {
-            display: none;
-            position: absolute;
-            background-color: #333;
-            min-width: 160px;
-            z-index: 1;
-            border-radius: 0 0 10px 10px; /* Cantos arredondados para o submenu */
-        }
-
-        li:hover .submenu {
-            display: block;
-        }
-
-        .submenu a {
-            color: white;
-            padding: 12px 16px;
-            text-decoration: none;
-            display: block;
-            border-radius: 0; /* Remover cantos arredondados para os links do submenu */
-        }
-
-        .submenu a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-
-        /* Estilos para o conteúdo da página */
-        .content {
-            padding: 20px;
-        }
-</style>
+    <title>Meu Site</title>
+    <!-- Inclua aqui links para seus arquivos CSS ou outros recursos -->
+</head>
 <body>
-    <ul class="menu">
-        <li><a href="#home">Home</a></li>
-        <li>
-            <a href="#More">More</a>
-            <div class="submenu">
-                <a href="#Demo">DEMOS</a>
-                <a href="Artists">Artists</a>
-                <a href="#Musics">Musics</a>
-            </div>
-        </li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
+    <header>
+        <!-- Conteúdo do cabeçalho (logotipo, menu de navegação, etc.) -->
+    </header>
 
-<div class="content">
-    <h1 style="color: rgb(255, 255, 255);">ARTIST</h1>
-    <img src="https://i.ibb.co/dgRmWQS/IMG-3664.jpg" alt="Sua Imagem" style="width: 400px; height: auto; float: left; margin-right: 20px;"> 
-    <p style="color: rgb(255, 255, 255);">MORETTO BR</p>
-    <p style="color: rgb(255, 255, 255);">Moretto é um talentoso artista que tem dominado a cena da música eletrônica há 6 anos. Especializado no Melodic Techno, House e Techno ele é conhecido por sua habilidade única de criar sets envolventes e que levam os ouvintes a uma jornada emocionante.
-        Desde o início de sua carreira, Moretto se destacou por sua dedicação e paixão pela música. Ele mergulhou profundamente no mundo da produção musical e aprendeu a maioria das coisas sozinho,experimentando e explorando diferentes técnicas e estilos sonoros. Sua curiosidade e autodisciplina o impulsionaram a se aprimorar continuamente, sempre buscando elevar suas habilidades e conhecimentos para proporcionar experiências musicais excepcionais ao seu público.
-        Prepare-se para ser transportado para uma jornada sonora única e eletrizante, onde suas batidas cativantes e melodias hipnóticas irão levá-lo a um estado de euforia musical. Moretto deixará uma marca duradoura em sua mente e alma.
-        </p>
-    
-</head>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 20px;
-            cursor: pointer; /* Adiciona o estilo do cursor de mão (pointer) */
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px 0;
-        }
-        h1 {
-            margin: 0;
-        }
-        main img {
-            display: block;
-            margin: 0 auto;
-            width: 100%;
-            height: 60%;
-        }
-        .catalogo {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-            text-align: center;
-        }
-        .item {
-            border: 1px solid #ccc;
-            padding: 10px;
-            transition: transform 0.2s ease-in-out;
-        }
-        .item:hover {
-            transform: scale(1.05);
-        }
-        .item img {
-            max-width: 100%;
-        }
-    </style>
-</head>
-<style>
-body {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("https://i.ibb.co/3h4mbCQ/logo.png");
-    background-size: 100% 100%; /* Ajusta ao tamanho da tela */
-    background-repeat: no-repeat; /* Para evitar que a imagem seja repetida */
-    background-position: center; /* Centraliza a imagem de fundo */
-}
-</style>
-<!--imagem padrao
-<main>
-        <img src="https://i.ibb.co/3h4mbCQ/logo.png" alt="logo" border="0" />
+    <main>
+        <!-- Conteúdo principal do seu site -->
+        <h1>Bem-vindo ao Meu Site</h1>
+        <p>Este é o conteúdo principal do meu site.</p>
     </main>
--->
-<h2 style="color: rgb(255, 255, 255);">MUSICS</h2>
 
-<div class="catalogo">
-        <div class="item">
-            <img src="https://i.ibb.co/KzPgqGn/Design-sem-nome-1.jpg" alt="Design-sem-nome-1" border="0">
-            <p style="color: rgb(255, 255, 255);">Low Frequencies (Now Relised)</p>
-        </div>
-        <div class="item">
-            <img src="https://i.ibb.co/z591qPf/Ilustrac-a-o-Floral-Capa-de-CD.jpg" alt="Ilustrac-a-o-Floral-Capa-de-CD" border="0">
-            <p style="color: rgb(255, 255, 255);">You are lived (Now Relised)</p>
-        </div>
-        <div class="item">
-            <img src="https://i.ibb.co/58QsQZ0/Disappear.jpg" alt="Disappear" border="0">
-            <p style="color: rgb(255, 255, 255);">Disappear (06/10/2023)</p>
-        </div>
-        <!-- Adicione mais itens conforme necessário -->
-    </div>
-
-<footer>
-        <p>&copy; 2023 HARMONIC CRAFT</p>
+    <footer>
+        <!-- Conteúdo do rodapé (informações de contato, links de redes sociais, etc.) -->
     </footer>
+
+    <!-- Inclua aqui links para seus arquivos JavaScript, se necessário -->
+
 </body>
+</html>
